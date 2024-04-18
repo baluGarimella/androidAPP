@@ -6,15 +6,11 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
 
 val Typography = Typography(
+    //TODO: Insert code here
     h1 = TextStyle(
         fontSize = 26.sp,
         fontWeight = FontWeight.Bold,
         color = LittleLemonColor.charcoal
-    ),
-    h2 = TextStyle(
-        color = LittleLemonColor.charcoal,
-        fontSize = 18.sp,
-        fontWeight = FontWeight.Bold
     ),
     body1 = TextStyle(
         color = LittleLemonColor.green
@@ -27,4 +23,6 @@ val Typography = Typography(
         fontSize = 14.sp,
         fontWeight = FontWeight.Bold
     )
+
+
 )
